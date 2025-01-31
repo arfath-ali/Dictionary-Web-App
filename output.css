@@ -501,44 +501,38 @@ video {
 }
     @font-face {
         font-family: 'Sans Serif';
-        src: url(/fonts/inter/static/Inter-Regular.ttf) format('truetype');
-        font-weight: 400;
-        font-style: normal;
+        src: url(fonts/inter/static/Inter-Regular.ttf);
+        font-weight: regular;
     }
 
     @font-face {
         font-family: 'Sans Serif';
-        src: url(/fonts/inter/static/Inter-Bold.ttf) format('truetype');
-        font-weight: 700;
-        font-style: normal;
+        src: url(fonts/inter/static/Inter-Bold.ttf);
+        font-weight: bold;
     }
 
     @font-face {
         font-family: 'Serif';
-        src: url(/fonts/lora/Lora-Regular.ttf) format('truetype');
-        font-weight: 400;
-        font-style: normal;
+        src: url(fonts/lora/static/Lora-Regular.ttf);
+        font-weight: regular;
     }
 
     @font-face {
         font-family: 'Serif';
-        src: url(/fonts/lora/Lora-Bold.ttf) format('truetype');
-        font-weight: 700;
-        font-style: normal;
+        src: url(fonts/lora/static/Lora-Bold.ttf);
+        font-weight: bold;
     }
 
     @font-face {
         font-family: 'Mono';
-        src: url(/fonts/inconsolata/static/Inconsolata-Regular.ttf) format('truetype');
-        font-weight: 400;
-        font-style: normal;
+        src: url(fonts/inconsolata/static/Inconsolata-Regular.ttf);
+        font-weight: regular;
     }
 
     @font-face {
         font-family: 'Mono';
-        src: url(/fonts/inconsolata/static/Inconsolata-Bold.ttf) format('truetype');
-        font-weight: 700;
-        font-style: normal;
+        src: url(fonts/inconsolata/static/Inconsolata-Bold.ttf);
+        font-weight: bold;
     }
 
     .custom-marker::before {
@@ -549,14 +543,17 @@ video {
         height: 5px;
         line-height: 1.5rem;
     }
-.icon-play-hoverEffects:hover {
+
+    .icon-play-hoverEffects:hover {
         cursor: pointer;
         transform: scale(1.1);
     }
-.icon-play-hoverEffects:hover path {
+
+    .icon-play-hoverEffects:hover path {
         fill: #FFFFFF;
     }
-.icon-play-hoverEffects:hover circle {
+
+    .icon-play-hoverEffects:hover circle {
         opacity: 1;
     }
 .absolute {
