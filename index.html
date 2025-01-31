@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="output.css" />
+    <script defer src="script.js"></script>
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="images/favicon-32x32.png" />
+    <title>Dictionary Web App</title>
+  </head>
+
+  <body
+    class="mr-scrollbar-compensate flex justify-center font-sans_serif font-regular text-charcoal dark:bg-veryDarkGray dark:text-white">
+    <div
+      class="mx-6 mb-[5.25rem] mt-6 flex max-w-[20.438rem] flex-col gap-6 tablet:mx-10 tablet:mb-[7.375rem] tablet:mt-[3.625rem] tablet:max-w-[43.063rem] tablet:gap-[3.25rem] desktop:max-w-[46rem]">
+      <header class="relative flex items-center justify-between">
+        <div>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="28.05"
+            height="32"
+            viewBox="0 0 34 38"
+            class="dictionary-app-logo tablet:h-[36.5px] tablet:w-8">
+            <g
+              fill="none"
+              fill-rule="evenodd"
+              stroke="#838383"
+              stroke-linecap="round"
+              stroke-width="1.5">
+              <path
+                d="M1 33V5a4 4 0 0 1 4-4h26.8A1.2 1.2 0 0 1 33 2.2v26.228M5 29h28M5 37h28" />
+              <path stroke-linejoin="round" d="M5 37a4 4 0 1 1 0-8" />
+              <path d="M11 9h12" />
+            </g>
+          </svg>
+        </div>
+
+        <div
+          class="flex items-center justify-between gap-4 tablet:gap-[1.625rem]">
+          <div class="text-xs font-bold leading-6 tablet:text-lg">
+            <div
+              class="font-selection-button flex items-center justify-center gap-4 hover:cursor-pointer tablet:gap-[1.125rem]">
+              <p class="font-selection-button-text">Sans Serif</p>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="12"
+                height="6"
+                viewBox="0 0 14 8">
+                <path
+                  fill="none"
+                  stroke="#A445ED"
+                  stroke-width="1.5"
+                  d="m1 1 6 6 6-6" />
+              </svg>
+            </div>
+            <div
+              class="font-options-menu absolute top-[100%] z-10 hidden bg-transparent pt-[0.656rem] mobileSmall:left-[23%] tablet:left-[54%] desktop:left-[57%]">
+              <div
+                class="font-options flex flex-col items-start justify-center gap-2 rounded-2xl bg-white py-6 pl-6 pr-[3.25rem] shadow-light dark:bg-darkCharcoal dark:text-white dark:shadow-dark tablet:gap-4 tablet:pr-[4.313rem]">
+                <p
+                  class="font-sans_serif hover:cursor-pointer hover:text-violet"
+                  data-font="sans_serif">
+                  Sans Serif
+                </p>
+                <p
+                  class="font-serif hover:cursor-pointer hover:text-violet"
+                  data-font="serif">
+                  Serif
+                </p>
+                <p
+                  class="font-mono hover:cursor-pointer hover:text-violet"
+                  data-font="mono">
+                  Mono
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="line-divider h-[2rem] w-[1px] bg-lightGray"></div>
+
+          <div class="flex items-center justify-center gap-3 tablet:gap-5">
+            <div
+              class="theme-switch flex h-5 w-10 items-center justify-start rounded-full bg-gray hover:cursor-pointer">
+              <button
+                class="mx-[0.188rem] h-[0.875rem] w-[0.875rem] transform rounded-full bg-white transition-transform duration-200 ease-in-out"></button>
+            </div>
+
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="19.99"
+              height="20"
+              viewBox="0 0 22 22"
+              class="theme-icon">
+              <path
+                fill="none"
+                stroke="#838383"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="1.5"
+                d="M1 10.449a10.544 10.544 0 0 0 19.993 4.686C11.544 15.135 6.858 10.448 6.858 1A10.545 10.545 0 0 0 1 10.449Z" />
+            </svg>
+          </div>
+        </div>
+      </header>
+
+      <main class="flex flex-col gap-6 tablet:gap-10">
+        <section
+          class="input-container flex max-w-[46rem] items-center justify-between rounded-2xl border-[1px] border-solid border-offWhite bg-offWhite px-6 pb-[0.75rem] pt-[0.625rem] caret-violet hover:cursor-pointer hover:border-violet dark:border-darkCharcoal dark:bg-darkCharcoal dark:hover:border-violet tablet:pb-5 tablet:pt-[1.125rem]">
+          <div>
+            <label for="search-input"></label>
+            <input
+              type="text"
+              id="search-input"
+              name="search-input"
+              placeholder="Search for any word..."
+              class="input-field w-[16.375rem] bg-offWhite text-base font-bold leading-[1.188rem] outline-none placeholder:text-base placeholder:font-bold placeholder:leading-[1.188rem] placeholder:text-charcoal placeholder:opacity-[25%] dark:bg-darkCharcoal placeholder:dark:bg-darkCharcoal dark:placeholder:text-white tablet:w-[39rem] tablet:text-xl tablet:leading-6 tablet:placeholder:text-xl tablet:placeholder:leading-6 desktop:w-[41.938rem] desktop:max-w-[41.938rem]" />
+          </div>
+          <div>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="15"
+              height="15.55"
+              viewBox="0 0 18 18"
+              class="search-button">
+              <path
+                fill="none"
+                stroke="#A445ED"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="1.5"
+                d="m12.663 12.663 3.887 3.887M1 7.664a6.665 6.665 0 1 0 13.33 0 6.665 6.665 0 0 0-13.33 0Z" />
+            </svg>
+          </div>
+        </section>
+      </main>
+      <footer class="hidden"></footer>
+    </div>
+  </body>
+</html>

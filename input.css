@@ -1,0 +1,95 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    @font-face {
+        font-family: 'Sans Serif';
+<<<<<<< HEAD:input.css
+        src: url(/fonts/inter/static/Inter-Regular.ttf) format('truetype');
+=======
+        src: url(fonts/inter/static/Inter-Regular.ttf) format('truetype');
+>>>>>>> 07cac6143b0b371cb291733a6cf5096cec7c8824:src/styles/input.css
+        font-weight: 400;
+        font-style: normal;
+    }
+
+    @font-face {
+        font-family: 'Sans Serif';
+<<<<<<< HEAD:input.css
+        src: url(/fonts/inter/static/Inter-Bold.ttf) format('truetype');
+=======
+        src: url(fonts/inter/static/Inter-Bold.ttf) format('truetype');
+>>>>>>> 07cac6143b0b371cb291733a6cf5096cec7c8824:src/styles/input.css
+        font-weight: 700;
+        font-style: normal;
+    }
+
+    @font-face {
+        font-family: 'Serif';
+<<<<<<< HEAD:input.css
+        src: url(/fonts/lora/Lora-Regular.ttf) format('truetype');
+=======
+        src: url(fonts/lora/Lora-Regular.ttf) format('truetype');
+>>>>>>> 07cac6143b0b371cb291733a6cf5096cec7c8824:src/styles/input.css
+        font-weight: 400;
+        font-style: normal;
+    }
+
+    @font-face {
+        font-family: 'Serif';
+<<<<<<< HEAD:input.css
+        src: url(/fonts/lora/Lora-Bold.ttf) format('truetype');
+=======
+        src: url(fonts/lora/Lora-Bold.ttf) format('truetype');
+>>>>>>> 07cac6143b0b371cb291733a6cf5096cec7c8824:src/styles/input.css
+        font-weight: 700;
+        font-style: normal;
+    }
+
+    @font-face {
+        font-family: 'Mono';
+<<<<<<< HEAD:input.css
+        src: url(/fonts/inconsolata/static/Inconsolata-Regular.ttf) format('truetype');
+=======
+        src: url(fonts/inconsolata/static/Inconsolata-Regular.ttf) format('truetype');
+>>>>>>> 07cac6143b0b371cb291733a6cf5096cec7c8824:src/styles/input.css
+        font-weight: 400;
+        font-style: normal;
+    }
+
+    @font-face {
+        font-family: 'Mono';
+<<<<<<< HEAD:input.css
+        src: url(/fonts/inconsolata/static/Inconsolata-Bold.ttf) format('truetype');
+=======
+        src: url(fonts/inconsolata/static/Inconsolata-Bold.ttf) format('truetype');
+>>>>>>> 07cac6143b0b371cb291733a6cf5096cec7c8824:src/styles/input.css
+        font-weight: 700;
+        font-style: normal;
+    }
+
+    .custom-marker::before {
+        content: '\2022';
+        color: #A445ED;
+        display: inline-block;
+        width: 5px;
+        height: 5px;
+        line-height: 1.5rem;
+    }
+}
+
+@layer components {
+    .icon-play-hoverEffects:hover {
+        cursor: pointer;
+        transform: scale(1.1);
+    }
+
+    .icon-play-hoverEffects:hover path {
+        fill: #FFFFFF;
+    }
+
+    .icon-play-hoverEffects:hover circle {
+        opacity: 1;
+    }
+}
