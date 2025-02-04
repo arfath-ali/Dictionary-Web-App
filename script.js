@@ -623,7 +623,7 @@ function handleFontSelection() {
 
       function applySelectedFont() {
         bodyElement.classList.remove(
-          'font-sans_serif',
+          'font-sansSerif',
           'font-serif',
           'font-mono',
         );

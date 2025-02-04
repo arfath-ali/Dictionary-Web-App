@@ -778,6 +778,9 @@ video {
 .font-mono {
   font-family: Mono, sans-serif;
 }
+.font-sansSerif {
+  font-family: Sans Serif, sans-serif;
+}
 .font-serif {
   font-family: Serif, sans-serif;
 }
