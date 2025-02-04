@@ -5,37 +5,37 @@
 @layer base {
     @font-face {
         font-family: 'Sans Serif';
-        src: url(fonts/inter/Inter-Regular.ttf);
+        src: url(../../public/fonts/inter/Inter-Regular.ttf);
         font-weight: 400;
     }
 
     @font-face {
         font-family: 'Sans Serif';
-        src: url(fonts/inter/Inter-Bold.ttf);
+        src: url(../../public/fonts/inter/Inter-Bold.ttf);
         font-weight: 700;
     }
 
     @font-face {
         font-family: 'Serif';
-        src: url(fonts/lora/Lora-Regular.ttf);
+        src: url(../../public/fonts/lora/Lora-Regular.ttf);
         font-weight: 400;
     }
 
     @font-face {
         font-family: 'Serif';
-        src: url(fonts/lora/Lora-Bold.ttf);
+        src: url(../../public/fonts/lora/Lora-Bold.ttf);
         font-weight: 700;
     }
 
     @font-face {
         font-family: 'Mono';
-        src: url(fonts/inconsolata/Inconsolata-Regular.ttf);
+        src: url(../../public/fonts/inconsolata/Inconsolata-Regular.ttf);
         font-weight: 400;
     }
 
     @font-face {
         font-family: 'Mono';
-        src: url(fonts/inconsolata/Inconsolata-Bold.ttf);
+        src: url(../../public/fonts/inconsolata/Inconsolata-Bold.ttf);
         font-weight: 700;
     }
 

@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "build:css": "postcss input.css -o output.css",
-    "watch:css": "postcss input.css -o output.css --watch",
+    "build:css": "postcss src/styles/input.css -o dist/output.css",
+    "watch:css": "postcss src/styles/input.css -o dist/output.css --watch",
     "lint": "eslint ."
   },
   "keywords": [],
