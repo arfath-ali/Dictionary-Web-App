@@ -466,7 +466,7 @@ function renderSourceURL(wordInfo) {
   sourceURLIcon.target = '_blank';
 
   const logo = document.createElement('img');
-  logo.src = '../../public/images/icon-new-window.svg';
+  logo.src = 'images/icon-new-window.svg';
   logo.classList.add('inline-block');
 
   sourceURLIcon.appendChild(logo);
