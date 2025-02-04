@@ -5,13 +5,13 @@
 @layer base {
     @font-face {
         font-family: 'Sans Serif';
-        src: url(fonts/inter/static/Inter-Regular.ttf);
+        src: url(fonts/inter/Inter-Regular.ttf);
         font-weight: 400;
     }
 
     @font-face {
         font-family: 'Sans Serif';
-        src: url(fonts/inter/static/Inter-Bold.ttf);
+        src: url(fonts/inter/Inter-Bold.ttf);
         font-weight: 700;
     }
 
@@ -29,13 +29,13 @@
 
     @font-face {
         font-family: 'Mono';
-        src: url(fonts/inconsolata/static/Inconsolata-Regular.ttf);
+        src: url(fonts/inconsolata/Inconsolata-Regular.ttf);
         font-weight: 400;
     }
 
     @font-face {
         font-family: 'Mono';
-        src: url(fonts/inconsolata/static/Inconsolata-Bold.ttf);
+        src: url(fonts/inconsolata/Inconsolata-Bold.ttf);
         font-weight: 700;
     }
 
