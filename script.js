@@ -635,13 +635,21 @@ function handleFontSelection() {
 }
 
 function setInputErrorStyle() {
-  inputContainer.classList.remove('border-offWhite', 'hover:border-violet');
-  inputContainer.classList.add('border-vividRed');
+  inputContainer.classList.remove(
+    'border-offWhite',
+    'hover:border-violet',
+    'dark:hover:border-violet',
+  );
+  inputContainer.classList.add('border-vividRed', 'dark:border-vividRed');
 }
 
 function resetInputFieldStyle() {
-  inputContainer.classList.add('border-offWhite', 'hover:border-violet');
-  inputContainer.classList.remove('border-vividRed');
+  inputContainer.classList.add(
+    'border-offWhite',
+    'hover:border-violet',
+    'dark:hover:border-violet',
+  );
+  inputContainer.classList.remove('border-vividRed', 'dark:border-vividRed');
 }
 
 function showEmptyInputAlert() {
@@ -667,7 +675,9 @@ function removeEmptyInputAlert() {
 
 function toggleMainElementSpacing() {
   mainElement.classList.toggle('gap-6');
+  mainElement.classList.toggle('tablet:gap-10');
   mainElement.classList.toggle('gap-2');
+  mainElement.classList.toggle('tablet:gap-2');
 }
 
 function displayInputError() {
